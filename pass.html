@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="pass.css">
+<body>
+    <div class="main">
+       <div class="box">
+        <div class="container">
+           <span type="text" class="pass" id="passs" readonly> </span>
+         <!-- </span> -->
+        <div class="content">
+           <label for="pl" class="right">Password Lenght</label>
+           <input type="number" class="left" id="pl" name="pl" max="30" min="2" value="10">
+        </div>    
+        <div class="content">
+            <label for="cu" class="right">Contains Uppercase</label>
+            <input type="checkbox" name="cu" id="cu" class="left" checked>
+        </div>    
+        <div class="content">
+            <label for="cl" class="right" >Contains Lowercase</label>
+            <input type="checkbox" name="cl" id="cl" class="left" checked>
+        </div>    
+        <div class="content">
+            <label for="cn" class="right">Contains Numbers</label>
+            <input type="checkbox" name="cn" id="cn" class="left" checked>
+         </div>    
+        <div class="content">
+            <label for="cs" class="right">Contains Symbols</label>
+            <input type="checkbox" name="cs" id="cs" class="left" checked>
+         </div>    
+         <button class="btn" id="btn">Generate</button>
+
+        </div>
+      
+    
+    </div>
+</div>
+
+
+    <script src="pass.js"></script>
+</body>
+</html>
